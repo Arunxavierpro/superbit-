@@ -145,7 +145,7 @@ namespace SuperBit {
         MotorRun(motor1, speed1);
         MotorRun(motor2, speed2);
     }
-    //% blockId=SuperBit_MotorRunDual block="Motor|%motor1|speed %speed1|%motor2|speed %speed2"
+    //% blockId=SuperBit_MotorRun4 block="Motor|%motor1|speed %speed1|%motor2|speed %speed2|%motor3|speed %speed3|%motor4|speed %speed4"
     //% weight=92
     //% blockGap=50
     //% speed1.min=-255 speed1.max=255
@@ -153,7 +153,7 @@ namespace SuperBit {
     //% speed3.min=-255 speed3.max=255
     //% speed4.min=-255 speed4.max=255      
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=2
-    export function MotorRun4(motor1: enMotors, speed1: number, motor2: enMotors, speed2: number,motor3:enMotors,speed3:number,motor4:eMotors,speed4:number): void {
+    export function MotorRun4(motor1: enMotors, speed1: number, motor2: enMotors, speed2: number,motor3:enMotors,speed3:number,motor4:enMotors,speed4:number): void {
         MotorRun(motor1, speed1);
         MotorRun(motor2, speed2);
         MotorRun(motor3,speed3);
