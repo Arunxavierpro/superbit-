@@ -153,7 +153,7 @@ namespace SuperBit {
     //% speed3.min=-255 speed3.max=255
     //% speed4.min=-255 speed4.max=255      
     //% name.fieldEditor="gridpicker" name.fieldOptions.columns=2
-    export function MotorRunDual(motor1: enMotors, speed1: number, motor2: enMotors, speed2: number,motor3:enMotors,speed3:number,motor4:eMotors,speed4:number): void {
+    export function MotorRun4(motor1: enMotors, speed1: number, motor2: enMotors, speed2: number,motor3:enMotors,speed3:number,motor4:eMotors,speed4:number): void {
         MotorRun(motor1, speed1);
         MotorRun(motor2, speed2);
         MotorRun(motor3,speed3);
